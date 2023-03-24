@@ -8,12 +8,40 @@ import org.openqa.selenium.support.PageFactory;
 public class DialogContent extends Parent {
 
     public DialogContent() {
-        PageFactory.initElements(GWD.getDriver(),this);
+        PageFactory.initElements(GWD.getDriver(), this);
     }
-    @FindBy(css="input[formcontrolname='username']")
+
+    @FindBy(css = "input[formcontrolname='username']")
     public WebElement username;
-    @FindBy(css="input[formcontrolname='password']")
+    @FindBy(css = "input[formcontrolname='password']")
     public WebElement password;
-    @FindBy(css="button[aria-label='LOGIN']")
+    @FindBy(css = "button[aria-label='LOGIN']")
     public WebElement loginButton;
+
+    @FindBy(css = "span[class='mat-tooltip-trigger logo-text']")
+    public WebElement TxtTechnoStudy;
+
+    @FindBy(xpath = "//ms-text-field[@formcontrolname='name']/input")
+    public WebElement nameInput;
+    @FindBy(xpath = "// ms-text-field[@formcontrolname='code']/input")
+    public WebElement codeInput;
+    @FindBy(xpath = "//ms-add-button[contains(@tooltip, 'ADD')]//button")
+    public WebElement plusButton;
+    @FindBy(xpath="//div[contains(text(),'successfully')]")
+    public WebElement successMessage;
+
+    @FindBy(xpath="//ms-save-button/button")
+    public WebElement saveButton;
+
+    @FindBy(xpath="//ms-text-field[@formcontrolname='shortName']/input")
+    public WebElement shortName;
+
+    @FindBy(xpath="//div[contains(text(),'already exists')]")
+    public WebElement alreadyExist;
+
+
+
+
+
+
 }

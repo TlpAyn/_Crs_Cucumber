@@ -8,7 +8,7 @@ public class Hooks {
 
     @After
 
-    public void after(){
+    public void after() {
         System.out.println("Senaryo bitti");
         GWD.quitDriver();
     }
