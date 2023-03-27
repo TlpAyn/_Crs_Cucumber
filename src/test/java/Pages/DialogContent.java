@@ -39,9 +39,20 @@ public class DialogContent extends Parent {
     @FindBy(xpath="//div[contains(text(),'already exists')]")
     public WebElement alreadyExist;
 
+    @FindBy(xpath="//button[@aria-label='Close dialog']")
+    public WebElement closeWindow;
 
+    @FindBy(xpath="//input[@data-placeholder='Name']")
+    public WebElement CitizienName;
 
+    @FindBy(xpath="//button[@class='mat-focus-indicator mat-raised-button mat-button-base mat-accent']")
+    public WebElement searchButton;
 
+    @FindBy(xpath="//ms-delete-button")
+    public WebElement deleteButton;
+
+    @FindBy(xpath="//button[@type='submit']")
+    public WebElement SeconddeleteButton;
 
 
 }

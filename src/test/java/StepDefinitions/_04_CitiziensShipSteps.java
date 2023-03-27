@@ -2,6 +2,7 @@ package StepDefinitions;
 
 import Pages.DialogContent;
 import Pages.LeftNav;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -32,5 +33,26 @@ public class _04_CitiziensShipSteps {
         dc.sendKeysFunction(dc.nameInput,name);
         dc.sendKeysFunction(dc.shortName, shortName);
         dc.clickFuntion(dc.saveButton);
+    }
+
+    @When("User delete the {string}")
+    public void userDeleteThe(String name) {
+
+        dc.sendKeysFunction(dc.CitizienName,name);
+        dc.clickFuntion(dc.searchButton);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        dc.clickFuntion(dc.deleteButton);
+        dc.clickFuntion(dc.SeconddeleteButton);
+
+
+    }
+
+    @And("Close the window")
+    public void closeTheWindow() {
+        dc.clickFuntion(dc.closeWindow);
     }
 }
