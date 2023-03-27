@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="Proje halen yarim, uzerinde degisiklikler gerek.12">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_05_DataTableOrnek.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_05_DataTableSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_04_SenarioCitizenschip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_04_SenarioCitizenschip.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_CitiziensShipSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_CitiziensShipSteps.java" afterDir="false" />
-    </list>
+    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="Delete kismi eklendi artik surekli yeni ulke ismi bulmaya gerek klamadi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,13 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679518788747</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Delete kismi eklendi artik surekli yeni ulke ismi bulmaya gerek klamadi">
+      <created>1679951991413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679951991413</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Proje halen yarim, uzerinde degisiklikler gerek." />
     <MESSAGE value="Proje halen yarim, uzerinde degisiklikler gerek.1" />
     <MESSAGE value="Proje halen yarim, uzerinde degisiklikler gerek.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proje halen yarim, uzerinde degisiklikler gerek.12" />
+    <MESSAGE value="Delete kismi eklendi artik surekli yeni ulke ismi bulmaya gerek klamadi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete kismi eklendi artik surekli yeni ulke ismi bulmaya gerek klamadi" />
   </component>
 </project>
