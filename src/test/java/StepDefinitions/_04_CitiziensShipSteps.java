@@ -2,11 +2,14 @@ package StepDefinitions;
 
 import Pages.DialogContent;
 import Pages.LeftNav;
+import Pages.Parent;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class _04_CitiziensShipSteps {
+public class _04_CitiziensShipSteps extends Parent {
 
     LeftNav lv = new LeftNav();
     DialogContent dc = new DialogContent();
@@ -40,11 +43,11 @@ public class _04_CitiziensShipSteps {
 
         dc.sendKeysFunction(dc.CitizienName,name);
         dc.clickFuntion(dc.searchButton);
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
+
+
+        wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//fuse-progress-bar/*") , 0));
+
         dc.clickFuntion(dc.deleteButton);
         dc.clickFuntion(dc.SeconddeleteButton);
 

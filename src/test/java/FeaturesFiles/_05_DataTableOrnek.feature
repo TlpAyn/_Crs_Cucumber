@@ -1,4 +1,4 @@
-Feature:
+Feature: Datatable Exaple
 
   Scenario: Users List
 
@@ -6,12 +6,15 @@ Feature:
     And Write username and pasword "Talip" and "12345"
     And Write username as DataTable
 
+
       | Tahsin |
       | Muhsin |
       | Tahir  |
       | Minir  |
 
+
     And Write username and passsword as Database
+
 
       | Tahsin | 123 |
       | Muhsin | 234 |
