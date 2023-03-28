@@ -22,16 +22,18 @@ Feature: DataTable Functunilaty
       | addButton |
 
     Then User sending the keys in Dialog Content
-      | nameInput | talExam1 |
+      | nameInput | talExam11 |
 
     And Click on the element in Dialog
       | academicPeriod  |
       | academicPeriod1 |
       | gradeLevel      |
-      | gradeLevel2     |
+      | gradeLevel2      |
+
+ #  And Click first item
     And Click on the element in Dialog
       | saveButton |
-    And Success message should be displayed
+    Then Success message should be displayed
 
     And Click on the element in LeftNav
       | entranceExamsOne |
@@ -39,7 +41,7 @@ Feature: DataTable Functunilaty
       | entranceExamsTwo |
 
     And User delete item from Dialog Content
-    |talExam1|
+      | talExam11 |
 
 
 

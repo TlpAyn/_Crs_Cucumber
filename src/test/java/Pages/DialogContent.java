@@ -68,6 +68,18 @@ public class DialogContent extends Parent {
     @FindBy(xpath = "//input[@data-placeholder='Integration Code']")
     public WebElement integrationCode;
 
+    @FindBy(xpath = "//mat-select//span[text()='Academic Period']")
+    public WebElement academicPeriod;
+
+    @FindBy(xpath = "(//mat-option/span)[1]")
+    public WebElement academicPeriod1;
+
+    @FindBy(xpath = "(//span[text()='Grade Level'])[1]")
+    public WebElement gradeLevel;
+
+    @FindBy(xpath = "(//mat-option//span)[2]")
+    public WebElement gradeLevel2;
+
 
     public WebElement getDialogElement(String strElement) {
 
@@ -91,20 +103,28 @@ public class DialogContent extends Parent {
                 return toggleBar;
             case "priorityCode":
                 return priorityCode;
+            case "academicPeriod":
+                return academicPeriod;
+            case "academicPeriod1":
+                return academicPeriod1;
+            case "gradeLevel":
+                return gradeLevel;
+            case "gradeLevel2":
+                return gradeLevel2;
 
         }
         return null;
     }
 
-    public void deleteItem(String searchText){
-        sendKeysFunction(searchInput,searchText);
+    public void deleteItem(String searchText) {
+        sendKeysFunction(searchInput, searchText);
         clickFunction(searchButton);   //fuse-progress-bar/*   gözüküyor
         //beklet
         //1. StaleElemetn hatası verdi : erken buldum tez kaybettim
         //wait.until(ExpectedConditions.elementToBeClickable(searchButton));
 
         //fuse-progress-bar/*    bu 0 olana kadar beklet
-        wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//fuse-progress-bar/*") , 0));
+        wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//fuse-progress-bar/*"), 0));
 
         clickFunction(deleteButton);
         clickFunction(SeconddeleteButton);

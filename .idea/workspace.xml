@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="_06_ bitti.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_07_FeesScenarioOutlineDatatable.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" afterDir="false" />
+    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="iyi gidiyor">
+      <change afterPath="$PROJECT_DIR$/src/java/StepDefinitions/_08_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_09_EntranceExamSenaryo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_08_Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
       <recent name="StepDefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Fee Functionality (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Exam form test">
     <configuration name="Feature: _06_DataTable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_06_DataTable.feature" />
@@ -84,15 +88,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Create Nationality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: _08_EntranceExam" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_06_DataTable.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber_Kursu5" />
-      <option name="NAME_FILTER" value="^Create Nationality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create Nationality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Create Nationality" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: _08_EntranceExam" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Exam form test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber_Kursu5" />
+      <option name="NAME_FILTER" value="^Exam form test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Exam form test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Exam form test" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -144,26 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_06_DataTable.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Cucumber_Kursu5" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="_Crs_Cucumber" />
       <method v="2">
@@ -179,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Exam form test" />
+        <item itemvalue="Cucumber Java.Feature: _08_EntranceExam" />
         <item itemvalue="Cucumber Java.Scenario: Fee Functionality (1)" />
         <item itemvalue="Cucumber Java.Scenario: Fee Functionality" />
         <item itemvalue="Cucumber Java.Feature: _06_DataTable" />
-        <item itemvalue="Cucumber Java.Scenario: " />
-        <item itemvalue="Cucumber Java.Scenario: Create Nationality" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680029061040</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="iyi gidiyor">
+      <created>1680034136481</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680034136481</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,6 +274,7 @@
     <MESSAGE value="Tekrara baslandi sadece Datatable yazimi yapildi" />
     <MESSAGE value="Tekrara baslandi sadece Datatable yazimi yapildi, dersten sonra devam" />
     <MESSAGE value="_06_ bitti." />
-    <option name="LAST_COMMIT_MESSAGE" value="_06_ bitti." />
+    <MESSAGE value="iyi gidiyor" />
+    <option name="LAST_COMMIT_MESSAGE" value="iyi gidiyor" />
   </component>
 </project>
