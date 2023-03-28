@@ -29,35 +29,52 @@ public class DialogContent extends Parent {
     public WebElement codeInput;
     @FindBy(xpath = "//ms-add-button[contains(@tooltip, 'ADD')]//button")
     public WebElement plusButton;
-    @FindBy(xpath="//div[contains(text(),'successfully')]")
+    @FindBy(xpath = "//div[contains(text(),'successfully')]")
     public WebElement successMessage;
 
-    @FindBy(xpath="//ms-save-button/button")
+    @FindBy(xpath = "//ms-save-button/button")
     public WebElement saveButton;
 
-    @FindBy(xpath="//ms-text-field[@formcontrolname='shortName']/input")
+    @FindBy(xpath = "//ms-text-field[@formcontrolname='shortName']/input")
     public WebElement shortName;
 
-    @FindBy(xpath="//div[contains(text(),'already exists')]")
+    @FindBy(xpath = "//div[contains(text(),'already exists')]")
     public WebElement alreadyExist;
 
-    @FindBy(xpath="//button[@aria-label='Close dialog']")
+    @FindBy(xpath = "//button[@aria-label='Close dialog']")
     public WebElement closeWindow;
 
-    @FindBy(xpath="//input[@data-placeholder='Name']")
+    @FindBy(xpath = "//input[@data-placeholder='Name']")
     public WebElement CitizienName;
 
-    @FindBy(xpath="//button[@class='mat-focus-indicator mat-raised-button mat-button-base mat-accent']")
+    @FindBy(xpath = "//button[@class='mat-focus-indicator mat-raised-button mat-button-base mat-accent']")
     public WebElement searchButton;
 
-    @FindBy(xpath="//ms-delete-button")
+    @FindBy(xpath = "//ms-delete-button")
     public WebElement deleteButton;
 
-    @FindBy(xpath="//button[@type='submit']")
+    @FindBy(xpath = "//button[@type='submit']")
     public WebElement SeconddeleteButton;
 
+    @FindBy(xpath = "//*[@data-icon='plus']")
+    public WebElement CitiziensPlus;
 
 
+
+    public WebElement getDialogElement(String strElement) {
+
+        switch (strElement) {
+
+            case "plusButton":
+                return plusButton;
+            case "CitiziensPlus":
+                return  CitiziensPlus;
+                case "saveButton":
+                return  saveButton;
+        }
+        return null;
+    }
 
 
 }
+

@@ -21,4 +21,16 @@ public class LeftNav extends Parent {
 
     @FindBy(xpath = "//span[text()='Citizenships']")
     public WebElement citiziensSchip;
+
+    public WebElement getWebelement(String strButton){
+
+        switch (strButton){
+
+            case "setup" : return setup;
+            case "parameters" : return parameters;
+            case "countries" : return countries;
+            case "citiziensSchip" : return citiziensSchip;
+        }
+        return null;
+    }
 }

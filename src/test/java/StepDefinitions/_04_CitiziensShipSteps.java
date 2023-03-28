@@ -13,6 +13,7 @@ public class _04_CitiziensShipSteps extends Parent {
 
     LeftNav lv = new LeftNav();
     DialogContent dc = new DialogContent();
+
     @Then("Navigate to citiziens page")
     public void navigateToCitiziensPage() {
         lv.clickFuntion(lv.setup);
@@ -23,7 +24,7 @@ public class _04_CitiziensShipSteps extends Parent {
     @Then("Already exist message should be displayed")
     public void alreadyExistMessageShouldBeDisplayed() {
 
-        dc.verifyContainsTextFunction(dc.alreadyExist,"already");
+        dc.verifyContainsTextFunction(dc.alreadyExist, "already");
     }
 
     @When("User delete the {string} ")
@@ -33,7 +34,7 @@ public class _04_CitiziensShipSteps extends Parent {
     @When("User a CitizienShip name as {string} short name as {string}")
     public void userACitizienShipNameAsShortNameAs(String name, String shortName) {
         dc.clickFuntion(dc.plusButton);
-        dc.sendKeysFunction(dc.nameInput,name);
+        dc.sendKeysFunction(dc.nameInput, name);
         dc.sendKeysFunction(dc.shortName, shortName);
         dc.clickFuntion(dc.saveButton);
     }
@@ -41,16 +42,13 @@ public class _04_CitiziensShipSteps extends Parent {
     @When("User delete the {string}")
     public void userDeleteThe(String name) {
 
-        dc.sendKeysFunction(dc.CitizienName,name);
+        dc.sendKeysFunction(dc.CitizienName, name);
         dc.clickFuntion(dc.searchButton);
 
-
-
-        wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//fuse-progress-bar/*") , 0));
+        wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//fuse-progress-bar/*"), 0));
 
         dc.clickFuntion(dc.deleteButton);
         dc.clickFuntion(dc.SeconddeleteButton);
-
 
     }
 
