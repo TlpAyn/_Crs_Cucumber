@@ -22,7 +22,7 @@ public class _06_DataTableSteps {
         for (String strButton: strButtons) {
 
             WebElement element = ln.getWebelement(strButton);
-            ln.clickFuntion(element);
+            ln.clickFunction(element);
 
         }
 
@@ -35,9 +35,32 @@ public class _06_DataTableSteps {
 
         for ( String a: dcElements) {
             WebElement element = dc.getDialogElement(a);
-            dc.clickFuntion(element);
+            dc.clickFunction(element);
 
         }
     }
+
+
+
+    @And("User delete item from Dialog Content")
+    public void userDeleteItemFromDialogContent(DataTable dt) {
+        List<String> strButtons=dt.asList(String.class);
+
+        for (String strDeleteText: strButtons) {
+            dc.deleteItem(strDeleteText);
+        }
+    }
+
+
+    @And("User sending the keys in Dialog Content")
+    public void userSendingTheKeysInDialogContent(DataTable dt) {
+        List< List<String> > items= dt.asLists(String.class);
+
+        for (int i = 0; i < items.size(); i++) {
+            WebElement element= dc.getDialogElement(items.get(i).get(0));
+            dc.sendKeysFunction(element, items.get(i).get(1));
+        }
+    }
 }
+
 

@@ -28,7 +28,7 @@ public class _01_LoginSteps {
     public void enterUsernameAndPasswordClickLoginButton() {
         dc.sendKeysFunction(dc.username, "turkeyts");
         dc.sendKeysFunction(dc.password, "TechnoStudy123");
-        dc.clickFuntion(dc.loginButton);
+        dc.clickFunction(dc.loginButton);
     }
 
     @Then("User scould login succesfully")

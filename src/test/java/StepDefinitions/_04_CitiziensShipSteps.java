@@ -16,9 +16,9 @@ public class _04_CitiziensShipSteps extends Parent {
 
     @Then("Navigate to citiziens page")
     public void navigateToCitiziensPage() {
-        lv.clickFuntion(lv.setup);
-        lv.clickFuntion(lv.parameters);
-        lv.clickFuntion(lv.citiziensSchip);
+        lv.clickFunction(lv.setup);
+        lv.clickFunction(lv.parameters);
+        lv.clickFunction(lv.citiziensSchip);
     }
 
     @Then("Already exist message should be displayed")
@@ -33,27 +33,27 @@ public class _04_CitiziensShipSteps extends Parent {
 
     @When("User a CitizienShip name as {string} short name as {string}")
     public void userACitizienShipNameAsShortNameAs(String name, String shortName) {
-        dc.clickFuntion(dc.plusButton);
+        dc.clickFunction(dc.addButton);
         dc.sendKeysFunction(dc.nameInput, name);
         dc.sendKeysFunction(dc.shortName, shortName);
-        dc.clickFuntion(dc.saveButton);
+        dc.clickFunction(dc.saveButton);
     }
 
     @When("User delete the {string}")
     public void userDeleteThe(String name) {
 
-        dc.sendKeysFunction(dc.CitizienName, name);
-        dc.clickFuntion(dc.searchButton);
+        dc.sendKeysFunction(dc.searchInput, name);
+        dc.clickFunction(dc.searchButton);
 
         wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//fuse-progress-bar/*"), 0));
 
-        dc.clickFuntion(dc.deleteButton);
-        dc.clickFuntion(dc.SeconddeleteButton);
+        dc.clickFunction(dc.deleteButton);
+        dc.clickFunction(dc.SeconddeleteButton);
 
     }
 
     @And("Close the window")
     public void closeTheWindow() {
-        dc.clickFuntion(dc.closeWindow);
+        dc.clickFunction(dc.closeWindow);
     }
 }

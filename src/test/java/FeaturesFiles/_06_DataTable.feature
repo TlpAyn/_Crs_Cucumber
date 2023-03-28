@@ -16,8 +16,75 @@ Feature: DataTable Functunilaty
 
     And Click on the element in Dialog
 
-      | CitiziensPlus |
+      | addButton |
 
-    And Click on the element in Dialog Content
-    |nameInput|Tal136901|
-    |nameInput|Tal136901|
+    And User sending the keys in Dialog Content
+      | nameInput | Tal1369041eee |
+      | shortName | Tal136e940123 |
+
+    And Click on the element in Dialog
+
+      | saveButton |
+
+    Then Success message should be displayed
+
+    And User delete item from Dialog Content
+      | Tal1369041eee |
+
+    Then Success message should be displayed
+
+
+  Scenario: Create Nationality
+    And Click on the element in LeftNav
+
+      | setup         |
+      | parameters    |
+      | nationalities |
+
+    And Click on the element in Dialog
+      | addButton |
+
+    And User sending the keys in Dialog Content
+      | nameInput | Talo123456 |
+
+    And Click on the element in Dialog
+
+    |saveButton|
+
+    Then Success message should be displayed
+
+    And User delete item from Dialog Content
+      | Talo123456 |
+
+    And Success message should be displayed
+
+    Scenario: Fee Functionality
+      And Click on the element in LeftNav
+        | setup      |
+        | parameters |
+        | fees       |
+
+      And Click on the element in Dialog
+      |addButton|
+      And User sending the keys in Dialog Content
+
+        | nameInput       | tahsin123234423 |
+        | codeInput       | i3434aa2    |
+        | integrationCode | 12122      |
+        | priorityCode    | 12222       |
+
+      And Click on the element in Dialog
+        | toggleBar  |
+        | saveButton |
+
+      Then Success message should be displayed
+
+      And User delete item from Dialog Content
+        | tahsin123234423 |
+
+      Then Success message should be displayed
+
+
+
+
+

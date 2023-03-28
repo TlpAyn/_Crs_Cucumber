@@ -25,10 +25,10 @@ public class DialogContent extends Parent {
 
     @FindBy(xpath = "//ms-text-field[@formcontrolname='name']/input")
     public WebElement nameInput;
-    @FindBy(xpath = "// ms-text-field[@formcontrolname='code']/input")
+    @FindBy(xpath = "//ms-text-field[@formcontrolname='code']/input")
     public WebElement codeInput;
     @FindBy(xpath = "//ms-add-button[contains(@tooltip, 'ADD')]//button")
-    public WebElement plusButton;
+    public WebElement addButton;
     @FindBy(xpath = "//div[contains(text(),'successfully')]")
     public WebElement successMessage;
 
@@ -45,7 +45,7 @@ public class DialogContent extends Parent {
     public WebElement closeWindow;
 
     @FindBy(xpath = "//input[@data-placeholder='Name']")
-    public WebElement CitizienName;
+    public WebElement searchInput;
 
     @FindBy(xpath = "//button[@class='mat-focus-indicator mat-raised-button mat-button-base mat-accent']")
     public WebElement searchButton;
@@ -59,20 +59,55 @@ public class DialogContent extends Parent {
     @FindBy(xpath = "//*[@data-icon='plus']")
     public WebElement CitiziensPlus;
 
+    @FindBy(xpath = "(//input[@data-placeholder='Priority'])[2]")
+    public WebElement priorityCode;
+
+    @FindBy(xpath = "//mat-slide-toggle[@formcontrolname='active']")
+    public WebElement toggleBar;
+
+    @FindBy(xpath = "//input[@data-placeholder='Integration Code']")
+    public WebElement integrationCode;
 
 
     public WebElement getDialogElement(String strElement) {
 
         switch (strElement) {
 
-            case "plusButton":
-                return plusButton;
+            case "addButton":
+                return addButton;
             case "CitiziensPlus":
-                return  CitiziensPlus;
-                case "saveButton":
-                return  saveButton;
+                return CitiziensPlus;
+            case "saveButton":
+                return saveButton;
+            case "codeInput":
+                return codeInput;
+            case "nameInput":
+                return nameInput;
+            case "shortName":
+                return shortName;
+            case "integrationCode":
+                return integrationCode;
+            case "toggleBar":
+                return toggleBar;
+            case "priorityCode":
+                return priorityCode;
+
         }
         return null;
+    }
+
+    public void deleteItem(String searchText){
+        sendKeysFunction(searchInput,searchText);
+        clickFunction(searchButton);   //fuse-progress-bar/*   gözüküyor
+        //beklet
+        //1. StaleElemetn hatası verdi : erken buldum tez kaybettim
+        //wait.until(ExpectedConditions.elementToBeClickable(searchButton));
+
+        //fuse-progress-bar/*    bu 0 olana kadar beklet
+        wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//fuse-progress-bar/*") , 0));
+
+        clickFunction(deleteButton);
+        clickFunction(SeconddeleteButton);
     }
 
 
