@@ -5,13 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="iyi gidiyor">
-      <change afterPath="$PROJECT_DIR$/src/java/StepDefinitions/_08_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_09_EntranceExamSenaryo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_08_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_01_2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_02_ApachePOI_Nedir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_03_ApachePOIStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_04_ApachePOIGetAllData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/ApacheExcel2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/DersOrnk.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/TestExcel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_09_EntranceExamSenaryo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_01_TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_02_TestRunnerBelirliFeaturelar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_03_TestRunnerAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_04_TestRunnerSmoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_05_TestRunnerRegression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_06_TestRunnerSmokeWithPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_07_TestRunnerExtendReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_08_TestRunnerParalell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_09_ExamSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWDold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/XML/_03_Paralel_Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ExtendReportIslemleri" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_01_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_01_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_02_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_03_CountryMultiply.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultiply.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_04_SenarioCitizenschip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_SenarioCitizenschip.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_05_DataTableOrnek.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_05_DataTableOrnek.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_06_DataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_06_DataTable.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_07_FeesScenarioOutlineDatatable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_07_FeesScenarioOutlineDatatable.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_08_EntranceExam.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesFiles/_09_EntranceExamSenaryo.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReadME" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ReadME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,34 +83,39 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/talip/IdeaProjects/_Crs_Cucumber/src/test/java/FeaturesFiles",
+    "last_opened_file_path": "C:/Users/talip/IdeaProjects/_Crs_Cucumber/src/test/java/ApachePOI/resource",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.75258917"
+    "project.structure.side.proportion": "0.75258917",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\ApachePOI\resource" />
+      <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java" />
+      <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\resources" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\FeaturesFiles" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\main" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\ApachePOI\resource" />
+      <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ApachePOI" />
+      <recent name="Runners" />
       <recent name="StepDefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Exam form test">
-    <configuration name="Feature: _06_DataTable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_06_DataTable.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+  <component name="RunManager" selected="Application._03_ApachePOIStart">
+    <configuration name="_01_2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePOI._01_2DArray" />
       <module name="Cucumber_Kursu5" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: _06_DataTable" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="ApachePOI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,78 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: _08_EntranceExam" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="_03_ApachePOIStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePOI._03_ApachePOIStart" />
       <module name="Cucumber_Kursu5" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: _08_EntranceExam" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Exam form test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_08_EntranceExam.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Cucumber_Kursu5" />
-      <option name="NAME_FILTER" value="^Exam form test$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Exam form test$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Exam form test" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Fee Functionality (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_07_FeesScenarioOutlineDatatable.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Cucumber_Kursu5" />
-      <option name="NAME_FILTER" value="^Fee Functionality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Fee Functionality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Fee Functionality" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Fee Functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeaturesFiles/_06_DataTable.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Cucumber_Kursu5" />
-      <option name="NAME_FILTER" value="^Fee Functionality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Fee Functionality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Fee Functionality" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="ApachePOI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +149,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/talip/IdeaProjects/_Crs_Cucumber/src/test/java/XML/_03_Paralel_Test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber_Kursu5" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/XML/_03_Paralel_Test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_06_TestRunnerSmokeWithPlugin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber_Kursu5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners._06_TestRunnerSmokeWithPlugin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_07_TestRunnerExtendReport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber_Kursu5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners._07_TestRunnerExtendReport" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Exam form test" />
-        <item itemvalue="Cucumber Java.Feature: _08_EntranceExam" />
-        <item itemvalue="Cucumber Java.Scenario: Fee Functionality (1)" />
-        <item itemvalue="Cucumber Java.Scenario: Fee Functionality" />
-        <item itemvalue="Cucumber Java.Feature: _06_DataTable" />
+        <item itemvalue="Application._03_ApachePOIStart" />
+        <item itemvalue="Application._01_2DArray" />
+        <item itemvalue="TestNG.C:/Users/talip/IdeaProjects/_Crs_Cucumber/src/test/java/XML/_03_Paralel_Test.xml" />
+        <item itemvalue="TestNG._07_TestRunnerExtendReport" />
+        <item itemvalue="TestNG._06_TestRunnerSmokeWithPlugin" />
       </list>
     </recent_temporary>
   </component>

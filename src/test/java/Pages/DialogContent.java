@@ -79,6 +79,14 @@ public class DialogContent extends Parent {
 
     @FindBy(xpath = "(//mat-option//span)[2]")
     public WebElement gradeLevel2;
+    @FindBy(xpath = "(//mat-option//span)[1]")
+    public WebElement gradeLevel1;
+    @FindBy(xpath = "(//mat-option//span)[3]")
+    public WebElement gradeLevel3;
+    @FindBy(xpath = "(//mat-option//span)[4]")
+    public WebElement gradeLevel4;
+    @FindBy(xpath = "(//mat-option//span)[5]")
+    public WebElement gradeLevel5;
 
 
     public WebElement getDialogElement(String strElement) {
@@ -111,6 +119,15 @@ public class DialogContent extends Parent {
                 return gradeLevel;
             case "gradeLevel2":
                 return gradeLevel2;
+            case "gradeLevel1":
+                return gradeLevel1;
+            case "gradeLevel3":
+                return gradeLevel3;
+            case "gradeLevel4":
+                return gradeLevel4;
+            case "gradeLevel5":
+                return gradeLevel5;
+
 
         }
         return null;

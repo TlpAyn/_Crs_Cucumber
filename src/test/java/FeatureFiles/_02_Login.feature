@@ -1,5 +1,5 @@
 Feature: Country Functionality
-
+@SmokeTest
   Scenario: Create Country
     Given  Navigate to Campus
     When   Enter username and password click login button

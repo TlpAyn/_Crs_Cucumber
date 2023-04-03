@@ -1,5 +1,5 @@
 Feature: Datatable Exaple
-
+@Regression
   Scenario: Users List
 
     When Write username "Talip"

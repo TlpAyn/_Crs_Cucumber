@@ -33,6 +33,7 @@ Feature: DataTable Functunilaty
 
     Then Success message should be displayed
 
+    @Regie
 
   Scenario: Create Nationality
     And Click on the element in LeftNav
