@@ -13,7 +13,4 @@ public class _02_ApachePOI_Nedir {
      *    FileInputStream oluşturuyorum. (Dosyayı yani Exceli okuma için açma)
      *    FileInputStream -> Workbook -> Sheet -> row -> cell ilşki sırasına göre okuyorum.
      */
-
-
-
 }
