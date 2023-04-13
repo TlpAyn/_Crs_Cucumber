@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="iyi gidiyor">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_05_GetASpecificData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_06_WritelnTheExel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/LoginData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/WriteInTheExcelFile.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/GRP1_11_TA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/GRP1_11_TA_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/GRP1_13_ZY_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/GRP1_3_AG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/GRP1_5_12_HG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/GRP1_6_TA_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/GRP1_7_TA_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/GRP1_8_ZY_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/_01_CihanSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/_04_userStoryASY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dddd/pages/stepDefinitions/_09_userStoryASY.java" afterDir="false" />
+    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="proje crasch indan sonra tekrar guncellendi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApachePOI/_02_ApachePOI_Nedir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_02_ApachePOI_Nedir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApachePOI/_03_ApachePOIStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_03_ApachePOIStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApachePOI/_04_ApachePOIGetAllData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_04_ApachePOIGetAllData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680555135765</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="proje crasch indan sonra tekrar guncellendi">
+      <created>1681030539172</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681030539172</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,6 +262,7 @@
     <MESSAGE value="Tekrara baslandi sadece Datatable yazimi yapildi, dersten sonra devam" />
     <MESSAGE value="_06_ bitti." />
     <MESSAGE value="iyi gidiyor" />
-    <option name="LAST_COMMIT_MESSAGE" value="iyi gidiyor" />
+    <MESSAGE value="proje crasch indan sonra tekrar guncellendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="proje crasch indan sonra tekrar guncellendi" />
   </component>
 </project>
