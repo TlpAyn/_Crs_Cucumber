@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="proje crasch indan sonra tekrar guncellendi" />
+    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="bos kalmasin devam geleccek">
+      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/Gun01/_01_Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/JDBCParent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/XML/Deneme2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/XML/deneme1.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,13 +76,14 @@
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_JDBC" />
       <recent name="dddd" />
       <recent name="ApachePOI" />
       <recent name="Runners" />
       <recent name="StepDefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._04_ApachePOIGetAllData">
+  <component name="RunManager" selected="TestNG._01_Intro.test1">
     <configuration name="_01_2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ApachePOI._01_2DArray" />
       <module name="Cucumber_Kursu5" />
@@ -141,10 +149,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/talip/IdeaProjects/_Crs_Cucumber/src/test/java/XML/_03_Paralel_Test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_01_Intro.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cucumber_Kursu5" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/XML/_03_Paralel_Test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_JDBC.Gun01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_JDBC.Gun01" />
+      <option name="MAIN_CLASS_NAME" value="_JDBC.Gun01._01_Intro" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -153,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG._01_Intro.test1" />
         <item itemvalue="Application._04_ApachePOIGetAllData" />
         <item itemvalue="Application._03_ApachePOIStart" />
         <item itemvalue="Application._06_WritelnTheExel" />
         <item itemvalue="Application._01_2DArray" />
-        <item itemvalue="TestNG.C:/Users/talip/IdeaProjects/_Crs_Cucumber/src/test/java/XML/_03_Paralel_Test.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681030539172</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="bos kalmasin devam geleccek">
+      <created>1681502483927</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681502483927</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +284,7 @@
     <MESSAGE value="_06_ bitti." />
     <MESSAGE value="iyi gidiyor" />
     <MESSAGE value="proje crasch indan sonra tekrar guncellendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="proje crasch indan sonra tekrar guncellendi" />
+    <MESSAGE value="bos kalmasin devam geleccek" />
+    <option name="LAST_COMMIT_MESSAGE" value="bos kalmasin devam geleccek" />
   </component>
 </project>
