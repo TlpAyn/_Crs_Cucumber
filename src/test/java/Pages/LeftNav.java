@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class LeftNav extends Parent {
     public LeftNav() {
         PageFactory.initElements(GWD.getDriver(), this);
@@ -31,6 +33,9 @@ public class LeftNav extends Parent {
     public WebElement setupTwo;
     @FindBy(xpath = "(//span[text()='Entrance Exams'])[2]")
     public WebElement entranceExamsTwo;
+    @FindBy(xpath = "//span[text()='States']")
+    private WebElement states;
+
 
     public WebElement getWebelement(String strButton){
 
@@ -45,6 +50,7 @@ public class LeftNav extends Parent {
             case "entranceExamsOne" : return entranceExamsOne;
             case "setupTwo" : return setupTwo;
             case "entranceExamsTwo" : return entranceExamsTwo;
+            case "states" : return states;
         }
         return null;
     }
