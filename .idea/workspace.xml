@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="persembe gunu bitti, pazartesiye baslandi !">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_11_JDBCStates.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_11_JDBCStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/DBUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/ExcelUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/Gun02/_01_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/_JDBC/Gun02/_02_Soru.java" afterDir="false" />
+    <list default="true" id="93f4bde4-6005-49f2-a45a-5a9aa67bc93b" name="Changes" comment="Cucumber ve JDBC bitti, guncel yakalandi . Sistem hazir">
+      <change afterPath="$PROJECT_DIR$/src/test/java/YEDEK/Cam10.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YEDEK/Cam10Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YEDEK/Cam11.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YEDEK/Cam11Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YEDEK/DialogContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YEDEK/LeftNav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YEDEK/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/talip/IdeaProjects/_Crs_Cucumber/src/test/java/Utilities&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/talip/IdeaProjects/_Crs_Cucumber/src/test/java/YEDEK&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.75258917&quot;,
@@ -65,18 +64,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\YEDEK" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\Utilities" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\ApachePOI\resource" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\resources" />
-      <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\FeaturesFiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\YEDEK" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\dddd\pages\stepDefinitions" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\dddd\pages" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\dddd" />
       <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\java\ApachePOI\resource" />
-      <recent name="C:\Users\talip\IdeaProjects\_Crs_Cucumber\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_JDBC.Gun02" />
@@ -310,8 +309,26 @@
       <option name="project" value="LOCAL" />
       <updated>1681800617453</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Cucumber ve JDBC bitti, guncel yakalandi . Sistem hazir">
+      <created>1681818160586</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681818160586</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Proje halen yarim, uzerinde degisiklikler gerek." />
@@ -327,7 +344,8 @@
     <MESSAGE value="bos kalmasin devam geleccek" />
     <MESSAGE value="persembe ye gecis yaptim tekrarlarda" />
     <MESSAGE value="persembe gunu bitti, pazartesiye baslandi !" />
-    <option name="LAST_COMMIT_MESSAGE" value="persembe gunu bitti, pazartesiye baslandi !" />
+    <MESSAGE value="Cucumber ve JDBC bitti, guncel yakalandi . Sistem hazir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cucumber ve JDBC bitti, guncel yakalandi . Sistem hazir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
